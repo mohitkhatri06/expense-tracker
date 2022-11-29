@@ -7,12 +7,13 @@ const intialState = {
 
 export const expenseSlice = createSlice({
     name:'expense',
+    intialState,
     reducers:{
-        getTransaction:(state) => {
+        getTransactions:(state) => {
 
         }
     }
 })
 
-export const {getTransaction} = expenseSlice.actions;
+export const {getTransactions} = expenseSlice.actions;
 export default expenseSlice.reducer;
